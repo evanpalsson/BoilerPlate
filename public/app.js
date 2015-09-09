@@ -1,10 +1,18 @@
-var app = angular.module('nameOfApp', ['ngRoute'])
+var app = angular.module('nameOfApp', ['ui.router'])
 
-	app.config(function($routeProvider){
+	app.config(function($stateProvider, $urlRouterProvider){
 
-		$routeProvider
-	  		.when('/', {
-	  			templateUrl: '/index.html',
-	  			controller: 'indexCtrl'	
-	  	})
+		$urlRouterProvider
+			.otherwise('/');
+			
+		$stateProvider
+			.state('home', {
+				url: '/',
+				templateUrl: '/index.html',
+	  			controller: 'indexCtrl'
+			})
+			// .state('home.statements', {
+			// 	url: '/statements',
+			// 	templateUrl: '/statements.html'
+			// })
 	});
