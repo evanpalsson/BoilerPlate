@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600);
+@media print {	
+	* {
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    -webkit-print-color-adjust: exact;
+	    font-family: 'Raleway';
+	    font-weight: 400;
+	    color: rgba(107, 109, 105, 1);
+	}
+	.page-wrap {
+		margin: 0pt 40pt;
+	}
+	.section-one img {
+		width: 150pt;
+	}
+	.section-two {
+		text-align: center;
+		margin: 18pt 0pt;
+	}
+	.title, .summary {
+		margin: 5pt auto;	
+	}
+	.title {
+		font-size: 32pt;
+		font-weight: 300;
+	}
+	.summary {
+		font-size: 12pt;
+		max-width: 230pt;
+	}
+	
+	.line {
+		background-color: rgba(107, 109, 105, 1);
+		width: 18px;
+		height: 2px;
+		border-radius: 5px;
+		margin: 10px auto;
+	}
+	.section-three {
+		margin-top: 22pt;
+	}
+	.section-three textarea {
+		display: none;
+	}
+	
+	.section-four {
+		display: none;
+	}
+	.left {
+		width: 100%;
+	}
+	.right {
+		width: 100%;
+	}
+	.practice-title,
+	.pro-tips-title {
+		left: 10pt;
+		font-size: 12pt;
+		font-weight: 600;
+		color: #85caec;
+		position: absolute;
+	}
+	#print_helper_1 {
+		font-size: 22pt;
+		font-weight: 400;
+		padding: 25pt 5pt 5pt 10pt;
+		min-height: 50pt;
+	}
+	#print_helper_2 {
+		font-size: 10.5pt;
+		font-weight: 400;
+		padding: 28pt 10pt 5pt 10pt;
+		min-height: 105pt;
+	}
+	#print_helper_3, 
+	#print_helper_4, 
+	#print_helper_5 {
+		min-height: 95pt;
+		padding: 40pt 10pt 0pt 10pt;
+		margin: 12pt 0pt;
+		font-size: 10.5pt;
+	}
+	#print_helper_1, 
+	#print_helper_2, 
+	#print_helper_3, 
+	#print_helper_4, 
+	#print_helper_5 {
+		display: block;
+		background-color: rgba(243, 243, 242, 1);
+	}
+	.right img {
+		width: 25pt;
+		position: absolute;
+	}
+	.right-top-box img,
+	.right-middle-box img,
+	.right-bottom-box img {
+		left: 15pt;
+	}
+	.right-top-box img {
+		bottom: 276pt;
+	}
+	.right-middle-box img {
+		bottom:168pt;
+	}
+	.right-bottom-box img {
+		bottom: 63pt;
+	}
+	form {
+		position: relative;
+	}
+	form p {
+		z-index: 999;
+		position: absolute;
+	}
+	form img {
+		position: relative;
+	}
+};

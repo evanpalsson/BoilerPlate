@@ -1,9 +1,6 @@
-var app = angular.module('nameOfApp');
+var app = angular.module('success-chart');
 
-	app.controller('nameOfCtrl', function($scope){
-
-
-		console.log('indexCtrl working')
+	app.controller('success', function($scope){
 	
 
 	});

@@ -1,0 +1,1 @@
+var app=angular.module("success-chart",["ui.router"]);app.config(function(e,r){r.otherwise("/"),e.state("home",{url:"/",templateUrl:"/index.html",controller:"indexCtrl"})});
